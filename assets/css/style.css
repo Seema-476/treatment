@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap');
+
+
+*{
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.technology::after{
+    content: "";
+    position: absolute;
+    background: var(--green);
+    width: 40px;
+    height: 2px;
+    top: 50%;
+    margin-left: 9px;
+}
+.technology::before {
+    content: "";
+    position: absolute;
+    background: var(--green);
+    width: 40px;
+    height: 2px;
+    top: 50%;
+    margin-left: -46px;
+}
+.Treatments{
+        max-width: 799px;
+        padding-bottom: 20px;
+}
+
+.subheading{
+        max-width: 449px;
+}
+.devicebtn{
+        padding: 12px 18px;
+        border: none;
+        cursor: pointer;
+        transition: .5s;
+}
+.devicebtn:hover{
+    background-color: var(--dark-green);
+}
+.pagebg{
+    padding: 20px;
+}
+.cardbox{
+    border: 1.09px solid var(--card-border);
+}
+.content{
+    padding: 15px;
+}
+/* font-family */
+.font-Archivo{
+    font-family: 'Archivo', sans-serif;
+}
+.font-Kaushan {
+    font-family: 'Kaushan Script', sans-serif;
+}
+/* leading */
+.leading-46{
+    line-height: 34.53px;
+}
+.leading-62 {
+    line-height: 50.4px;
+}
+.leading-32 {
+    line-height: 32.5px;
+}
+.leading-24 {
+    line-height: 24px;
+}
+.leading-19 {
+    line-height: 19.58px;
+}
+@media(min-width:576px) {
+    .pagebg {
+            padding: 40px;
+        }
+    .devicebtn {
+            padding: 16px 27px;
+    }
+    .content {
+            padding: 30px;
+        }
+    .Treatments {
+            padding-bottom: 30px;
+        }
+    .leading-46 {
+            line-height: 46.53px;
+        }
+    .leading-62 {
+            line-height: 62.4px;
+        }
+    .technology::after {
+            width: 60px;
+            margin-left: 15px;
+        }
+    
+        .technology::before {
+            width: 60px;
+            margin-left: -65px;
+        }
+}
+
+@media(min-width:768px) {
+        .Treatments {
+                padding-bottom: 40px;
+            }
+}
+
+@media(min-width:992px) {
+    .Treatments {
+            padding-bottom: 60px;
+        }
+}
+

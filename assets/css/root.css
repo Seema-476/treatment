@@ -1,0 +1,91 @@
+:root {
+    /* font size */
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 20px;
+    --fs-lg: 22px;
+    --fs-xl: 36px;
+
+    /* font-color */
+    --white: #ffffff;
+    --off-white: #f5f8f6;
+    --black: #001008;
+    --green: #6e9277;
+    --dark-green: #4d5852;
+    --card-border: #0000001A;
+}
+
+/* text-size */
+.text-16 {
+    font-size: var(--fs-xsm);
+}
+
+.text-18 {
+    font-size: var(--fs-sm);
+}
+
+.text-25 {
+    font-size: var(--fs-md);
+}
+
+.text-32 {
+    font-size: var(--fs-lg);
+}
+
+.text-48 {
+    font-size: var(--fs-xl);
+}
+
+/* font-color */
+.text-white {
+    color: var(--white);
+}
+
+.text-off-white {
+    color: var(--off-white);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-dark-green {
+    color: var(--dark-green);
+}
+
+/* background color */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-off-white {
+    background-color: var(--off-white);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+@media(min-width:576px) {
+    :root {
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 25px;
+    }
+}
+
+@media(min-width:768px) {
+    :root {
+        --fs-lg: 32px;
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        --fs-xl: 48px;
+    }
+}
